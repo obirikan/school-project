@@ -1,0 +1,91 @@
+*{
+   /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif */
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+body{
+    margin: 0px;
+}
+.parent{
+    border: none;
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: minmax(150px,10%) auto;
+}
+header{
+    box-shadow: 10px 17px 20px lightgrey;
+    padding: 20px;
+}
+li{
+    list-style-type:none;
+    position: relative;
+    left: -20px;
+}
+img{
+    width: 20px;
+    position: relative;
+    top: 8px;
+    margin: 4px;
+}
+h1{
+  color:rgb(0, 0, 0)
+}
+div{
+    border: 1px solid black;
+    margin: 10px;
+}
+input{
+    padding: 10px;
+    display: block;
+    margin: 20px;
+    width: 300px;
+    border-radius: 10px;
+    border-style: none;
+    border: 1px solid rgb(78, 65, 124);
+}
+.himg{
+    width: 50px;
+    position: relative;
+    top: 18px;
+}
+textarea{
+    display: block;
+    position: relative;
+    left: 20px;
+    border-radius: 10px ;
+}
+a{
+    text-decoration:none;
+    color:black;
+}
+input[type=submit]{
+    width: 100px;
+    background-image: linear-gradient(45deg,rgba(46, 194, 240, 0.712),rgb(114, 159, 243),rgba(127, 211, 245, 0.479));
+    color: white;
+    border: none;
+}
+select{
+    padding: 10px;
+    position: relative;
+    left: 20px;
+}
+form{
+
+    padding: 10px;
+}
+textarea{
+    border: 1px solid;
+    color: rgb(136, 204, 250);
+    padding: 20px;
+}
+.side{
+    border: 0px solid white;
+    box-shadow: 15px 10px 10px rgb(211, 215, 216);
+}
+.side2{
+    border: 0px dashed white;
+    box-shadow: 15px 10px 10px rgb(211, 215, 216);
+}
+.main22{
+    border:none ;
+    box-shadow: 10px 10px 20px rgb(196, 192, 192);
+}

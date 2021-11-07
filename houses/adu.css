@@ -1,0 +1,98 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    margin: 0px;
+
+}
+.cont3{
+    background-image: url(../imgs/2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
+    color: white;
+}
+blockquote{
+    margin-top: 30px;
+    font-size: 25px;
+}
+.text{
+    text-align: center;
+    font-size: 30px;
+    text-transform: capitalize;
+}
+a{
+  color: black;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: all 1s ;
+}
+a:hover {
+    border-bottom:1px solid rgb(0, 0, 0);
+}
+.user{
+    text-decoration:none;
+    color:darkblue;
+}
+div{
+
+    padding:20px;
+}
+.date{
+    color: black;
+}
+b{
+    font-size: 10px;
+}
+img{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+
+}
+.icon{
+    background-image: url(imgs/about.png);
+}
+.h{
+    font-size: 12px;
+}
+.fig{
+   display: grid;
+}
+b{
+    font-size: 20px;
+    color: rgb(211, 205, 205);
+}
+h1{
+    display: inline;
+    text-transform: uppercase;
+}
+.cont{
+    margin: 10px;
+    display:inline-block;
+}
+.cont1{
+    display:inline-block;
+    position: relative;
+    bottom: 20px;
+}
+figcaption{
+    margin-top: 20px;
+    font-size: 15px;
+}
+hr{
+    border-width: 1px;
+    border-color: rgb(0, 0, 0);
+}
+@media screen and (max-width:480px){
+    .cont1{
+       position: relative;
+       top: 20px;
+       right: 25px;
+       width: 170px;
+    }
+    img{
+    position: relative;
+    left: 30px;
+    }
+}
